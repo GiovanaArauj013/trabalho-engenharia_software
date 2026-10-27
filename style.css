@@ -139,8 +139,8 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 48px;
-    padding-top: 48px;
-    padding-bottom: 72px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hero-texto {
@@ -175,14 +175,19 @@ header {
     padding-left: 28px;
     border-left: 1px solid var(--borda);
 }
-
 .hero-visual {
     flex: 1;
-    position: relative;
-    height: 340px;
-    padding-bottom: 244px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.hero-visual img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+}
 
 /* Serviços */
 
